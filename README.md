@@ -82,6 +82,21 @@ Make sure to deploy the output of `npm run build`
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
 
+## Environment Variables
+
+This project uses environment variables for configuration. To set up your local environment:
+
+1. Copy the `.env.example` file to `.env.local`:
+   ```bash
+   cp .env.example .env.local
+   ```
+
+2. Edit `.env.local` and fill in your actual values for:
+   - Syncfusion license key
+   - Appwrite project ID, API key, database ID, collection IDs, and API endpoint
+
+Note: The `.env.local` file is ignored by git to keep sensitive information secure. Never commit your actual API keys or credentials to the repository.
+
 ---
 
 Built with ❤️ using React Router.
